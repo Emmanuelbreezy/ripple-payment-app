@@ -1,13 +1,102 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .card-bg-gradient{
+      @apply  rounded-[16px];
+      background: radial-gradient(
+      50% 50% at 50% 50%,
+      rgba(217, 235, 205, 0.14) 0%,
+      rgba(217, 235, 205, 0.03) 100%
+    ),
+    #11453b;
+    /* box-shadow: -11px 0px 19px 0px rgba(23, 23, 23, 0.30), 0px 13px 20px 0px rgba(23, 23, 23, 0.20); */
+    }
+    .btn-primary {
+      @apply py-2 px-4 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75;
+    }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Importing and defining your custom fonts */
+
+@font-face {
+  font-family: 'Mellow';
+  src: url('./assets/fonts/MADEMellowPERSONALUSE-Light.otf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
 }
+
+@font-face {
+  font-family: 'Mellow';
+  src: url('./assets/fonts/MADEMellowPERSONALUSE-Regular.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mellow';
+  src: url('./assets/fonts/MADEMellowPERSONALUSE-Medium.otf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mellow';
+  src: url('./assets/fonts/MADEMellowPERSONALUSE-SemiBold.otf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mellow';
+  src: url('./assets/fonts/MADEMellowPERSONALUSE-Bold.otf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Mellow';
+  src: url('./assets/fonts/MADEMellowPERSONALUSE-Black.otf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Aeonik';
+  src: url('./assets/fonts/AeonikTRIAL-Regular.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Aeonik';
+  src: url('./assets/fonts/AeonikTRIAL-Bold.otf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+html,body{
+  margin:0;
+  padding:0;
+  font-family: 'Mellow', sans-serif;
+}
+
+.index_beams__yWcJT{
+  background-image: url('./assets/image/bg-gradients.svg');
+  background-size: cover;
+}
+
+.section2_beams__{
+  background-image: url('./assets/image/bg-wave-svg2.svg');
+  background-position: center;
+  background-size: cover;
+}
+
+.salarys_beams__{
+  background-image: url('./assets/image/bg-salary-pay.svg');
+  background-size: cover;
+}
+
