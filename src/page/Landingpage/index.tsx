@@ -218,17 +218,17 @@ const LandingPage = () => {
         <section className="relative w-full min-h-[555px] overflow-hidden bg-white">
           <div className="max-w-5xl mx-auto py-28 lg:py-28 z-50">
               <div className=" w-full flex flex-col lg:flex-row items-center justify-center lg:justify-between">
-                    <div className=" flex flex-col items-center lg:items-start gap-[42px] mr-0 mb-14 lg:mb-0 lg:mr-7" style={{ flex:"1 1" }}>
+                    <div className=" flex flex-col items-center lg:items-start gap-[42px] mr-0 mb-14 mt-10 lg:mt-0 lg:mb-0 lg:mr-7" style={{ flex:"1 1" }}>
                         <div className="mb-0 text-center lg:text-left max-w-lg mx-auto lg:max-w-auto">
                           <h1 className="text-primary font-medium text-[64px] leading-[72px] mb-6 ">
                               Get an Exclusive Demo of Eazipay
                           </h1>
-                          <p className="text-grey text-[24px] font-aeonik font-normal">
+                          <p className="text-muted text-[24px] font-aeonik font-normal">
                             Our greatest priority is to put you and your business first. Let’s show you how we can help.</p>
                         </div>
                     </div>
-                    <div className="flex-1 z-40">
-                        <div className="w-[552px] rounded-[32px] p-[32px] z-40 border-1 bg-white border border-[#E7E8E7]
+                    <div className="flex-1 w-10/12 sm:w-6/12 lg:w-auto z-40">
+                        <div className="w-full lg:w-[552px] rounded-[32px] p-[32px] z-40 border-1 bg-white border border-[#E7E8E7]
                         shadow-[0px_20px_48px_0px_rgba(170,170,170,0.29)] ring-offset-0">
                             <div className="w-full text-center mx-auto">
                                <div className="mb-2 max-w-xs mx-auto">
@@ -292,8 +292,8 @@ const LandingPage = () => {
                     </div>
                 </div>
           </div>
-          <div className="absolute z-0 top-0 lg:top-24 left-0"><DemoDotSVG /></div>
-          <div className="absolute z-0 top-0 right-0 opacity-30"><DemoSVG /></div>
+          <div className="absolute z-0 -top-8 lg:top-24 left-0"><DemoDotSVG /></div>
+          <div className="absolute z-0 -top-24 -right-28 lg:top-0 lg:right-0 opacity-30"><DemoSVG /></div>
         </section>
       </div>
     </WrapperStyle>
