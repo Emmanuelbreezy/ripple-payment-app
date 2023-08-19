@@ -139,7 +139,8 @@ const Home = () => {
                         </h5>
                       </div>
                       <button className="w-full md:w-auto bg-[#D9EBCD] py-3 px-[28px] rounded-3xl  z-40
-                      shadow-[0px_6px_12px_0px_rgba(0,0,0,0.20)] font-aeonik font-medium text-sm text-center">
+                      shadow-[0px_6px_12px_0px_rgba(0,0,0,0.20)] font-aeonik font-medium text-sm text-center
+                      hover:shadow-[0px_6px_12px_0px_rgba(0,0,0,0.60)] transition-shadow ease-in-out">
                         Fund Wallet
                       </button>
                    </div>

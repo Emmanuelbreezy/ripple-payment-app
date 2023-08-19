@@ -12,7 +12,7 @@ const SubMenu = (props:{
     <ListItem className="h-[56px]"active={props.active}>
         <a href="/#" className={`flex items-center justify-between h-full ${!props.isLast ? "border-b-[0.8px]  border-b-[#E7E8E7]" : ""} text-muted px-4 font-aeonik text-[16px]
         ${props.active ? "bg-[#caf9a9]/[0.15] border-l-4  border-l-primary !text-primary !fill-primary": ""} active: hover:bg-[#caf9a9]/[0.15] hover:!text-primary
-        font-medium`}>
+        font-medium transition-all ease-in-out delay-75`}>
             <div className="flex items-center gap-3">
               <span className={`${props.active ? '!text-primary !fill-primary' : 'text-[#515251]'}`}>{props.prefix}</span>
               <span>{props.name}</span>
