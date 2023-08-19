@@ -10,7 +10,8 @@ import { ReactComponent as Work2SVG }from '../../assets/image/works-2-3.svg';
 import { ReactComponent as WorkBGSVG }from '../../assets/image/works-bg.svg';
 import { ReactComponent as DemoSVG }from '../../assets/image/demo-svg.svg';
 import { ReactComponent as DemoDotSVG }from '../../assets/image/demo-dots.svg';
-import SalarySVG from '../../assets/image/salary-visual.svg';
+//import SalarySVG from '../../assets/image/salary-visual.svg';
+import SalarySVG from '../../assets/image/salary-visual.png';
 import WorksPhoneSVG from '../../assets/image/works-phone.svg';
 
 import ButtonLink from '../../component/Button/ButtonLink'
