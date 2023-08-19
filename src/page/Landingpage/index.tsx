@@ -10,9 +10,8 @@ import { ReactComponent as Work2SVG }from '../../assets/image/works-2-3.svg';
 import { ReactComponent as WorkBGSVG }from '../../assets/image/works-bg.svg';
 import { ReactComponent as DemoSVG }from '../../assets/image/demo-svg.svg';
 import { ReactComponent as DemoDotSVG }from '../../assets/image/demo-dots.svg';
-//import SalarySVG from '../../assets/image/salary-visual.svg';
 import SalarySVG from '../../assets/image/salary-visual.png';
-import WorksPhoneSVG from '../../assets/image/works-phone.svg';
+import WorksPhone from '../../assets/image/works-phone.png';
 
 import ButtonLink from '../../component/Button/ButtonLink'
 import { Link } from 'react-router-dom'
@@ -137,7 +136,7 @@ const LandingPage = () => {
                     <div className="relative flex-1 bg-cover">
                         <WorkBGSVG className="w-[90%] mx-auto" />
                         <div className="absolute -top-10 lg:w-[90%] w-[70%] h-auto mx-auto right-0 left-0 flex justify-center items-center">
-                            <img width="w-full " src={WorksPhoneSVG} alt="" />
+                            <img width="w-full " src={WorksPhone} alt="" />
                         </div>
                     </div>
                     <div className=" relative flex-shrink-1">
