@@ -12,6 +12,7 @@ import { ReactComponent as UserSVG }from '../../assets/image/user-plus-icon.svg'
 import { ReactComponent as ChervonSVG }from '../../assets/image/chevron_down.svg';
 import { ReactComponent as LogoSVG }from '../../assets/image/logo-light.svg';
 import { ReactComponent as CloseSVG }from '../../assets/image/close-icon.svg';
+import { Link } from 'react-router-dom';
 
 const SideBar = (props:{openSidebar:boolean; handletoggle:(val:boolean) => void}) => {
   const { openSidebar,handletoggle } = props;
@@ -27,7 +28,7 @@ const SideBar = (props:{openSidebar:boolean; handletoggle:(val:boolean) => void}
         <div  className="relative  bg-primary h-[120px]
        ">
           <div className="flex items-center justify-center  mask_beams__ h-[150.702px] ">
-            <a href="/"><LogoSVG /></a>
+            <Link to="/"><LogoSVG /></Link>
             <button className={`
              ${
               openSidebar ? 'translate-x-0' : '-translate-x-[150%]'
