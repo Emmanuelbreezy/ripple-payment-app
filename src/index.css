@@ -100,3 +100,16 @@ html,body{
   background-size: cover;
 }
 
+.mask_beams__{
+  background-image: url('./assets/image/mask-bg2.svg');
+  background-size: cover;
+  
+}
+
+.chart-container path.apexcharts-line.series-0 {
+  stroke-width: 2px !important; /* Adjust the width as needed */
+}
+
+.chart-container path.apexcharts-line.series-1 {
+  stroke-width: 2px !important; /* Adjust the width as needed */
+}

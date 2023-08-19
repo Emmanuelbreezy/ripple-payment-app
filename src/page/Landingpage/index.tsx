@@ -14,6 +14,7 @@ import SalarySVG from '../../assets/image/salary-visual.svg';
 import WorksPhoneSVG from '../../assets/image/works-phone.svg';
 
 import ButtonLink from '../../component/Button/ButtonLink'
+import { Link } from 'react-router-dom'
 
 const LandingPage = () => {
   return (
@@ -27,7 +28,7 @@ const LandingPage = () => {
             <NavigationBar />
              <div className="relative max-w-5xl mx-auto pt-20 lg:pt-20">
                  <div className="w-full flex flex-col lg:flex-row items-center justify-between">
-                      <div className="relative flex flex-col items-center lg:items-start gap-[72px]" style={{ flex:"0 1" }}>
+                      <div className="relative flex flex-col items-center lg:items-start gap-8 lg:gap-[72px]" style={{ flex:"0 1" }}>
                          <div className="mt-0 lg:-mt-16 flex flex-col items-center lg:items-start gap-6 max-w-lg lg:max-w-auto">
                            <h1 className="text-grey font-medium text-[60px] lg:text-[64px] tracking-tight leading-[64px] lg:leading-[72px] text-left">
                               <p className="flex m-0 p-0 gap-3">
@@ -44,11 +45,11 @@ const LandingPage = () => {
                                We’ve built an all-inclusive simple solution for individual and businesses to manage staff, pay salaries, bills, and relevant taxes all at once.
                            </p>
                            <div>
-                              <a href="/#" 
+                              <Link to="/dashboard" 
                                 className="leading-5 flex items-center justify-center py-[16px] px-[36px] rounded-[32px] bg-primary font-[14px] !text-white font-aeonik 
                                 ring-1 shadow-md shadow-primary/[0.20]">
-                                Start Using Free, Forever
-                              </a>
+                                {/* Start Using Free, Forever */} Go to Dashboard
+                              </Link>
                            </div>
                          </div>
                          <div className="flex-shrink-0">
@@ -76,8 +77,8 @@ const LandingPage = () => {
                             </div>
                          </div>
                       </div>
-                      <div className="flex-1 flex justify-end">
-                        <HeroSVG className="w-[95%] lg:w-auto -mx-9 lg:mx-0" />
+                      <div className="flex-1 pt-12 lg:pt-0 flex justify-end">
+                        <HeroSVG className="w-[100%] lg:w-auto h-auto lg:h-full -mx-9 lg:mx-0" />
                       </div>
                  </div>
              </div>
@@ -87,12 +88,12 @@ const LandingPage = () => {
             <div className='absolute z-0 inset-0 bg-cover bg-no-repeat -mt-0 lg:-mt-16 section2_beams__'></div>
               <div className="max-w-5xl mx-auto py-48 lg:py-20 z-40">
                 <div className="flex flex-col items-center justify-center gap-16">
-                  <div className="mb-0 text-center z-10">
-                    <h1 className="text-primary text-[64px] font-medium leading-[64px] mb-3">For Individuals and Businesses</h1>
-                    <p className="text-grey text-[20px] font-aeonik font-normal tracking-wide leading-6">Join 200+ businesses using Eazipay's easy solution.</p>
+                  <div className="text-center z-10 lg:w-auto w-[90%] mx-auto">
+                    <h1 className="text-primary text-[50px] lg:text-[64px] font-medium leading-[64px] mb-3">For Individuals and Businesses</h1>
+                    <p className="text-grey text-[18px] lg:text-[20px] font-aeonik font-normal tracking-wide leading-6">Join 200+ businesses using Eazipay's easy solution.</p>
                   </div>
-                  <div className="relative flex flex-col lg:flex-row items-center z-10">
-                    <div className="w-auto lg:w-[552px] h-auto lg:h-[320px] mr-0 lg:-mr-72 flex flex-col gap-6 p-16 rounded-[16px] font-aeonik text-white ring-1 ring-offset-0 ring-transparent shadow-[-11px_0px_19px_0px_rgba(23,23,23,0.30),0px_13px_20px_0px_rgba(23,23,23,0.20)] card-bg-gradient">
+                  <div className="relative flex flex-col lg:flex-row items-center z-10 gap-6 lg:gap-0">
+                    <div className="w-[90%] lg:w-[552px] h-auto lg:h-[320px] mr-0 lg:-mr-72 flex flex-col gap-6 py-16 px-10 lg:p-16 rounded-[16px] font-aeonik text-white ring-1 ring-offset-0 ring-transparent shadow-[-11px_0px_19px_0px_rgba(23,23,23,0.30),0px_13px_20px_0px_rgba(23,23,23,0.20)] card-bg-gradient">
                        <h3 className="text-[28px] font-bold leading-9">Tamper-proof Payroll for LIfe</h3>
                         <div className="max-w-md text-[18px] font-normal">
                           <p className="mb-2">Your staff payroll history is kept in one place forever.</p>
@@ -100,14 +101,14 @@ const LandingPage = () => {
                           <p className="mb-2">Download your payroll history anytime you need it.</p>
                         </div>
                     </div>
-                    <div className="w-auto lg:w-[552px] mr-0 lg:-mr-72 flex flex-col gap-6 p-16 h-auto lg:h-[320px]  rounded-[16px] font-aeonik text-white ring-1 ring-offset-0 ring-transparent shadow-[-11px_0px_19px_0px_rgba(23,23,23,0.30),0px_13px_20px_0px_rgba(23,23,23,0.20)] card-bg-gradient">
+                    <div className="w-[90%] lg:w-[552px] mr-0 lg:-mr-72 flex flex-col gap-6 py-16 px-10 lg:p-16 h-auto lg:h-[320px]  rounded-[16px] font-aeonik text-white ring-1 ring-offset-0 ring-transparent shadow-[-11px_0px_19px_0px_rgba(23,23,23,0.30),0px_13px_20px_0px_rgba(23,23,23,0.20)] card-bg-gradient">
                        <h3 className="text-[28px] font-bold leading-9">All Payroll, Anytime Anywhere</h3>
                         <div className="max-w-md text-[18px] font-normal">
                           <p className="mb-2">Wherever you are Eazipay has got you covered on ALL your Payroll tasks.</p>
                           <p className="mb-0">Whether it is Taxes, Pension insurances HMOs, trust funds, Eazipay handle all your compliamces in one place and easily, in seconds!</p>
                         </div>
                     </div>
-                    <div className="w-auto lg:w-[552px] flex flex-col gap-6 p-16 h-auto lg:h-[320px] rounded-[16px] font-aeonik text-white ring-1 ring-offset-0 ring-transparent shadow-[-11px_0px_19px_0px_rgba(23,23,23,0.30),0px_13px_20px_0px_rgba(23,23,23,0.20)] card-bg-gradient">
+                    <div className="w-[90%] lg:w-[552px] flex flex-col gap-6 py-16 px-10 lg:p-16 h-auto lg:h-[320px] rounded-[16px] font-aeonik text-white ring-1 ring-offset-0 ring-transparent shadow-[-11px_0px_19px_0px_rgba(23,23,23,0.30),0px_13px_20px_0px_rgba(23,23,23,0.20)] card-bg-gradient">
                        <h3 className="text-[28px] font-bold leading-9">Payroll in Seconds</h3>
                         <div className="max-w-md text-[18px] font-normal">
                           <p className="mb-2">Never again wil you spend more than 2 minutes on payroll.</p>
@@ -127,15 +128,15 @@ const LandingPage = () => {
         <section className="relative w-full min-h-auto bg-white pb-16">
             <div className="max-w-5xl mx-auto py-18 lg:py-20">
               <div className="flex flex-col items-center justify-center gap-16">
-                   <div className="mb-0 text-center z-10">
-                    <h1 className="text-primary text-[56px] font-medium leading-[64px] mb-4">How Eazipay Works</h1>
-                    <p className="text-grey text-[28px] font-aeonik font-normal tracking-wide leading-6">Get started in 3 simple steps.</p>
+                   <div className="text-center z-10 lg:w-auto w-[90%] mx-auto">
+                    <h1 className="text-primary  text-[50px] lg:text-[56px] font-medium leading-[64px] mb-4">How Eazipay Works</h1>
+                    <p className="text-grey text-[24px] lg:text-[28px] font-aeonik font-normal tracking-wide leading-6">Get started in 3 simple steps.</p>
                   </div>
                   <div className="relative flex flex-col py-11 lg:flex-row items-center justify-between gap-[150px] lg:gap-[200px">
                     <div className="relative flex-1 bg-cover">
-                        <WorkBGSVG />
-                        <div className="absolute -top-10 w-full flex justify-center items-center">
-                            <img src={WorksPhoneSVG} alt="" />
+                        <WorkBGSVG className="w-[90%] mx-auto" />
+                        <div className="absolute -top-10 lg:w-[90%] w-[70%] h-auto mx-auto right-0 left-0 flex justify-center items-center">
+                            <img width="w-full " src={WorksPhoneSVG} alt="" />
                         </div>
                     </div>
                     <div className=" relative flex-shrink-1">
@@ -177,13 +178,13 @@ const LandingPage = () => {
            <div className=" relative max-w-5xl mx-auto py-28 lg:py-40">
                 <div className=" w-full flex flex-col lg:flex-row items-center justify-between">
                   <div className=" flex flex-col items-center lg:items-start gap-[42px]" style={{ flex:"1 1" }}>
-                      <div className="mb-0 text-center lg:text-left z-40">
-                        <h1 className="text-grey font-medium text-[56px] leading-[64px] max-w-lg lg:max-w-auto">
+                      <div className="text-center lg:text-left z-40 lg:w-auto w-[90%] mx-auto">
+                        <h1 className="text-grey font-medium text-[50px] lg:text-[56px] leading-[48px] lg:leading-[64px] max-w-lg lg:max-w-auto">
                             Free forever for your <span className="text-accent">salary payment</span>
                         </h1>
                       </div>
                       <div className="flex-shrink-0 text-center lg:text-left">
-                         <p className="text-grey text-[18px] font-aeonik font-medium tracking-wide leading-6">
+                         <p className="text-grey  text-[16px] lg:text-[18px] font-aeonik font-medium tracking-wide leading-6">
                             Subscribe to the Eazilife today
                         </p>
                         <div className="flex items-center gap-4 mt-4">
@@ -210,7 +211,7 @@ const LandingPage = () => {
                       </div>
                   </div>
                   <div className="mt-12 lg:mt-0">
-                      <img src={SalarySVG} alt='' />
+                      <img className="w-[98%] lg:w-auto h-auto lg:h-full" src={SalarySVG} alt='' />
                   </div>
               </div>
             </div>

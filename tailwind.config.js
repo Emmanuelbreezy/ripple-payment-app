@@ -13,7 +13,8 @@ module.exports = {
         secondary: '#B4A572',
         accent:'#EA4E4B',
         grey:'#292A29',
-        muted: '#515251'
+        muted: '#515251',
+        success: '#01AA8C'
       },
     },
   },
