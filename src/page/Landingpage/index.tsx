@@ -93,7 +93,8 @@ const LandingPage = () => {
                     <p className="text-grey text-[18px] lg:text-[20px] font-aeonik font-normal tracking-wide leading-6">Join 200+ businesses using Eazipay's easy solution.</p>
                   </div>
                   <div className="relative flex flex-col lg:flex-row items-center z-10 gap-6 lg:gap-0">
-                    <div className="w-[90%] lg:w-[552px] h-auto lg:h-[320px] mr-0 lg:-mr-72 flex flex-col gap-6 py-16 px-10 lg:p-16 rounded-[16px] font-aeonik text-white ring-1 ring-offset-0 ring-transparent shadow-[-11px_0px_19px_0px_rgba(23,23,23,0.30),0px_13px_20px_0px_rgba(23,23,23,0.20)] card-bg-gradient">
+                    <div className="w-[90%] lg:w-[552px] h-auto lg:h-[320px] mr-0 lg:-mr-72 flex flex-col gap-6 py-16 px-10 lg:p-16 rounded-[16px] font-aeonik text-white ring-1 ring-offset-0 ring-transparent shadow-[-11px_0px_19px_0px_rgba(23,23,23,0.30),0px_13px_20px_0px_rgba(23,23,23,0.20)] card-bg-gradient
+                      hover:z-40 hover:shadow-[-11px_0px_19px_0px_rgba(23,23,23,0.60),0px_13px_20px_0px_rgba(23,23,23,0.60)]   transition-all ease-in-out">
                        <h3 className="text-[28px] font-bold leading-9">Tamper-proof Payroll for LIfe</h3>
                         <div className="max-w-md text-[18px] font-normal">
                           <p className="mb-2">Your staff payroll history is kept in one place forever.</p>
@@ -101,14 +102,16 @@ const LandingPage = () => {
                           <p className="mb-2">Download your payroll history anytime you need it.</p>
                         </div>
                     </div>
-                    <div className="w-[90%] lg:w-[552px] mr-0 lg:-mr-72 flex flex-col gap-6 py-16 px-10 lg:p-16 h-auto lg:h-[320px]  rounded-[16px] font-aeonik text-white ring-1 ring-offset-0 ring-transparent shadow-[-11px_0px_19px_0px_rgba(23,23,23,0.30),0px_13px_20px_0px_rgba(23,23,23,0.20)] card-bg-gradient">
+                    <div className="w-[90%] lg:w-[552px] mr-0 lg:-mr-72 flex flex-col gap-6 py-16 px-10 lg:p-16 h-auto lg:h-[320px]  rounded-[16px] font-aeonik text-white ring-1 ring-offset-0 ring-transparent shadow-[-11px_0px_19px_0px_rgba(23,23,23,0.30),0px_13px_20px_0px_rgba(23,23,23,0.20)] card-bg-gradient
+                    hover:z-40 hover:shadow-[-11px_0px_19px_0px_rgba(23,23,23,0.60),0px_13px_20px_0px_rgba(23,23,23,0.60)]   transition-all ease-in-out">
                        <h3 className="text-[28px] font-bold leading-9">All Payroll, Anytime Anywhere</h3>
                         <div className="max-w-md text-[18px] font-normal">
                           <p className="mb-2">Wherever you are Eazipay has got you covered on ALL your Payroll tasks.</p>
                           <p className="mb-0">Whether it is Taxes, Pension insurances HMOs, trust funds, Eazipay handle all your compliamces in one place and easily, in seconds!</p>
                         </div>
                     </div>
-                    <div className="w-[90%] lg:w-[552px] flex flex-col gap-6 py-16 px-10 lg:p-16 h-auto lg:h-[320px] rounded-[16px] font-aeonik text-white ring-1 ring-offset-0 ring-transparent shadow-[-11px_0px_19px_0px_rgba(23,23,23,0.30),0px_13px_20px_0px_rgba(23,23,23,0.20)] card-bg-gradient">
+                    <div className="w-[90%] lg:w-[552px] flex flex-col gap-6 py-16 px-10 lg:p-16 h-auto lg:h-[320px] rounded-[16px] font-aeonik text-white ring-1 ring-offset-0 ring-transparent shadow-[-11px_0px_19px_0px_rgba(23,23,23,0.30),0px_13px_20px_0px_rgba(23,23,23,0.20)] card-bg-gradient
+                      hover:z-40 hover:shadow-[-11px_0px_19px_0px_rgba(23,23,23,0.60),0px_13px_20px_0px_rgba(23,23,23,0.60)]   transition-all ease-in-out">
                        <h3 className="text-[28px] font-bold leading-9">Payroll in Seconds</h3>
                         <div className="max-w-md text-[18px] font-normal">
                           <p className="mb-2">Never again wil you spend more than 2 minutes on payroll.</p>
